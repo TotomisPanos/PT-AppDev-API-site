@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.container-fluid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container-fluid div.jumbotron {
+  position: relative;
+  z-index: 5;
+  color: white;
+}
+
+.backgroundimg {
+    width: 100%;
+}
